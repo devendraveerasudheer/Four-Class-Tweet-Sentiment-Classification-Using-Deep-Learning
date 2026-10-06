@@ -59,8 +59,8 @@ def load_artifacts():
     return model, tokenizer, label_encoder
 
 
-st.set_page_config(page_title="Four-Class-Tweet-Sentiment-Classification-Using-Deep-Learning", page_icon="💬")
-st.title("💬 Four-Class-Tweet-Sentiment-Classification-Using-Deep-Learning")
+st.set_page_config(page_title="BiLSTM Sentiment Classifier", page_icon="💬")
+st.title("💬 BiLSTM Sentiment Classifier")
 st.write("Enter a tweet or other text to predict its sentiment.")
 
 try:
