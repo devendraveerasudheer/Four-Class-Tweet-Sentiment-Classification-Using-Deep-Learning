@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 APP_DIR = Path(__file__).resolve().parent
-MODEL_PATH = APP_DIR / "model.keras"
+MODEL_PATH = APP_DIR / "bilstm_model.keras"
 TOKENIZER_PATH = APP_DIR / "tokenizer.pkl"
 LABEL_ENCODER_PATH = APP_DIR / "label_encoder.pkl"
 MAX_LEN = 50  # Same maxlen, padding, and truncation as the validation code
