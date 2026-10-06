@@ -1,0 +1,7 @@
+{
+  "max_length": 100,
+  "padding": "post",
+  "truncating": "post",
+  "lowercase": false,
+  "clean_text": false
+}
