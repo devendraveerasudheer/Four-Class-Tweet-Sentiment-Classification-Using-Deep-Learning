@@ -3,3 +3,4 @@ tensorflow
 numpy
 contractions
 emoji
+scikit-learn
